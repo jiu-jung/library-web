@@ -1,10 +1,11 @@
 name: Deploy Spring Boot to Cloud Run
 
 on:
-  push:
-    branches:
-      # - main
-      - deploy/inmemory
+  workflow_dispatch:
+  # push:
+  #   branches:
+  #     - main
+  #     - deploy/inmemory
 
 jobs:
   deploy:
