@@ -3,7 +3,8 @@ name: Deploy Spring Boot to Cloud Run
 on:
   push:
     branches:
-      - main
+      # - main
+      - deploy/inmemory
 
 jobs:
   deploy:
